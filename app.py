@@ -4,10 +4,10 @@ import os
 # ===== CONFIG =====
 API_ID = int(os.environ.get("API_ID", 21189715))   # my.telegram.org se
 API_HASH = os.environ.get("API_HASH", "988a9111105fd2f0c5e21c2c2449edfd")       # my.telegram.org se
-STRING_SESSION = os.environ.get("STRING_SESSION", "BQCT9g8ANBd26gmc7L1A1FAHliYdD1tS-DS6_taE5jMOOZOfHl6UgCLHem7WKqiKcEIPSzGa4cgLz4c0KwDSa5qNwnz6wXmivAHK4EJuRzQAttb5RvmY9tr_IxrKuy9DUQKhQTPdc4qCPuM5PFAoWKwdOCbjK7G5__murs9QjtggEzRo9JqxeIbnoz52eoxlcTdrRYxd1Npg4Bfu3_9cy7LIQQNLxD68VH5_0Zl7oresXFPlo2pNFumm6G85OESPKutWdU_FQzKLVWaKMl-DE7MfryV8T8qRmWg27aixb_pBDeAgG62e_aCDLjrQqT_DTp4-2aaBEzNLScKy83IaUmUA_8-f4gAAAAH3nNugAA")  # apna string session yahan daal
+STRING_SESSION = os.environ.get("STRING_SESSION", "BQCT9g8AhIvbW7Ykc0PcRI_O9SUtiQ3usiayle5J2r0eJVnH8AOJt_dThEvgDA1FCaaDCg_jph0SErj05j78GNhPnlIloVVglljTmREqh-MuUTneJh4e_m23kGUnbCnm2r4d0gDdjlcDOkXiPIlyzIHVerFkwySxNgKGlmt0YsZuCNnlS_qb95vyyuC3Vy7SzPV61ejnIUpghL2VU7u4gYiljErdrSLeDXok5A8CbUVVr2ooRBEoJopZUj6ESXAUD-lPdDGQUil5RIuJUVgvAKVHe_HPylBbjDGxm6ES0r8We0wkT7JIETzaZZ2dho7A8PJNi7eElmPMLwyg2iPnqi0xTQA5cQAAAAGurtJ3AA")  # apna string session yahan daal
 
-SOURCE_CHANNEL = int(os.environ.get("SOURCE_CHANNEL", "-1003091736828"))  # jahan se uthana hai
-TARGET_CHANNEL = int(os.environ.get("TARGET_CHANNEL", "-1002951284170"))  # jahan bhejna hai
+SOURCE_CHANNEL = int(os.environ.get("SOURCE_CHANNEL", "-1003043899154"))  # jahan se uthana hai
+TARGET_CHANNEL = int(os.environ.get("TARGET_CHANNEL", "-1003043070809"))  # jahan bhejna hai
 
 # ===== CLIENT =====
 app = Client("forward_bot", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION)
